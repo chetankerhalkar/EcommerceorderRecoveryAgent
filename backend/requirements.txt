@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+python-dotenv
+openai
+jinja2
+requests
+langchain
+langgraph
+rich
+tenacity
+pydantic
