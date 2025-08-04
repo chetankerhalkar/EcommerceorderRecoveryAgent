@@ -218,7 +218,7 @@ def send_test_email(to_email: str, subject: str = "Don't miss out, chetan kerhal
     from sendgrid.helpers.mail import Mail, Email, To, Content
 
     try:
-        api_key = os.getenv("SENDGRID_API_KEY", "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")
+        api_key = os.getenv("SENDGRID_API_KEY")
         from_email = os.getenv("SENDGRID_FROM_EMAIL", "noreply@aickstudio.ai")
         from_name = os.getenv("SENDGRID_FROM_NAME", "AICK Studio")
         print(api_key);      
